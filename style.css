@@ -262,3 +262,83 @@ button:hover {
     color: rgba(255,255,255,0.7);
     text-transform: uppercase;
 }
+
+
+
+#why-techwave {
+    background: #230E3D;
+    padding: 120px 0;
+    color: white;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.why-grid {
+    width: 75%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(180px, auto);
+    gap: 30px;
+    /* border: 1px solid white; */
+}
+
+.why-grid > div {
+    background: #351165;
+    border-radius: 40px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.why-grid > div:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.55);
+}
+
+.why-grid > div img {
+    width: 35px;
+    margin-bottom: 16px;
+}
+
+.why-grid > div h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.why-grid > div p {
+    font-size: 14px;
+    line-height: 30px;
+    color: rgba(255,255,255,0.6);
+}
+
+.premium {
+    grid-row: span 2;
+}
+
+.mobile {
+    grid-column: 2 / span 2;
+}
+
+.community {
+    grid-column: 2 / span 2;
+}
+
+.interviews {
+    grid-column: 1 / span 2;
+}
+
+.resources {
+    grid-column: 3;
+}
+
