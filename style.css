@@ -373,8 +373,8 @@ button:hover {
     border-radius: 24px;
     overflow: hidden;
 
-    display: flex;              
-    flex-direction: column;     
+    display: flex;
+    flex-direction: column;
 }
 
 .episode-embed {
@@ -406,12 +406,12 @@ button:hover {
 .episode-card p {
     font-size: 14px;
     line-height: 24px;
-    color: rgba(255,255,255,0.55);
+    color: rgba(255, 255, 255, 0.55);
     margin-bottom: 16px;
 }
 
 .duration {
-    margin-top: auto;           
+    margin-top: auto;
     padding-bottom: 20px;
     font-size: 16px;
     font-weight: 500;
@@ -453,7 +453,7 @@ button:hover {
 .host-info p {
     font-size: 16px;
     line-height: 24px;
-    color: rgba(255,255,255,0.55);
+    color: rgba(255, 255, 255, 0.55);
     margin-bottom: 20px;
 }
 
@@ -466,4 +466,57 @@ button:hover {
 .socials img {
     width: 20px;
     height: 20px;
+}
+
+
+.footer {
+    background: url(assets/footer-bg.png) center no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 120px 20px;
+    color: white;
+}
+
+.footer h1 {
+    font-size: 80px;
+    margin-bottom: 18px;
+    font-weight: bold;
+}
+
+.footer h1 span {
+    background: linear-gradient(180deg,
+            #F7E93F 0%,
+            #FB09B4 51%,
+            #9100F8 100%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    background-clip: text;
+    color: transparent;
+}
+
+.platforms {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    margin-bottom: 14px;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.platforms span {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.platforms i {
+    font-size: 16px;
+    color: #fff;
+}
+
+.footer p {
+    font-size: 16px;
+    opacity: 0.6;
 }
